@@ -12,9 +12,9 @@ piece3 = [ [0, -3.0, -4.0, -5.5, -6.0, -4.5, -3.0, -1.5, -1.0, 0], [-17.0, -17.0
 t=Turtle()
 s=Screen()
 t.hideturtle()
-s.bgcolor()      #Dark red
+s.bgcolor("#ba161e")      #Dark red
 s.setup(500, 600)
-x_offset, y_offset = 
+x_offset, y_offset = 0, 120
 zoom_factor = 15
 t.speed(2)
 
@@ -37,4 +37,4 @@ def draw_piece(piece):
 draw_piece(piece1)
 draw_piece(piece2)
 draw_piece(piece3)
-sleep(4)
+sleep(5)
